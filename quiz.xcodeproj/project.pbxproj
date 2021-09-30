@@ -13,6 +13,9 @@
 		F78914FC270453BB00C50C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78914FA270453BB00C50C30 /* Main.storyboard */; };
 		F78914FE270453C200C50C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78914FD270453C200C50C30 /* Assets.xcassets */; };
 		F7891501270453C200C50C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78914FF270453C200C50C30 /* LaunchScreen.storyboard */; };
+		F789150B270454B300C50C30 /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789150A270454B300C50C30 /* question.swift */; };
+		F789150D270461A300C50C30 /* Songti.ttc in Resources */ = {isa = PBXBuildFile; fileRef = F789150C270461A300C50C30 /* Songti.ttc */; };
+		F789150F27047D2600C50C30 /* gamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789150E27047D2600C50C30 /* gamePlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F78914FD270453C200C50C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7891500270453C200C50C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7891502270453C200C50C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F789150A270454B300C50C30 /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
+		F789150C270461A300C50C30 /* Songti.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Songti.ttc; sourceTree = "<group>"; };
+		F789150E27047D2600C50C30 /* gamePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamePlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				F78914F4270453BB00C50C30 /* AppDelegate.swift */,
 				F78914F6270453BB00C50C30 /* SceneDelegate.swift */,
+				F789150E27047D2600C50C30 /* gamePlay.swift */,
 				F78914F8270453BB00C50C30 /* ViewController.swift */,
+				F789150A270454B300C50C30 /* question.swift */,
 				F78914FA270453BB00C50C30 /* Main.storyboard */,
 				F78914FD270453C200C50C30 /* Assets.xcassets */,
 				F78914FF270453C200C50C30 /* LaunchScreen.storyboard */,
 				F7891502270453C200C50C30 /* Info.plist */,
+				F789150C270461A300C50C30 /* Songti.ttc */,
 			);
 			path = quiz;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 				F7891501270453C200C50C30 /* LaunchScreen.storyboard in Resources */,
 				F78914FE270453C200C50C30 /* Assets.xcassets in Resources */,
 				F78914FC270453BB00C50C30 /* Main.storyboard in Resources */,
+				F789150D270461A300C50C30 /* Songti.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F789150F27047D2600C50C30 /* gamePlay.swift in Sources */,
 				F78914F9270453BB00C50C30 /* ViewController.swift in Sources */,
+				F789150B270454B300C50C30 /* question.swift in Sources */,
 				F78914F5270453BB00C50C30 /* AppDelegate.swift in Sources */,
 				F78914F7270453BB00C50C30 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +304,9 @@
 				DEVELOPMENT_TEAM = 69M4JWQG8L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = quiz/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = quiz;
+				INFOPLIST_KEY_CFBundleName = quiz;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +335,9 @@
 				DEVELOPMENT_TEAM = 69M4JWQG8L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = quiz/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = quiz;
+				INFOPLIST_KEY_CFBundleName = quiz;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
